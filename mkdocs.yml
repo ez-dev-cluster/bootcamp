@@ -1,0 +1,27 @@
+site_name: C# Bootcamp
+theme: 
+  name: material
+  palette:
+    scheme: slate
+  highlightjs: true
+  hljs_languages:
+    - cs
+  hljs_style: atom-one-dark
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+# theme:
+#   name: material
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
